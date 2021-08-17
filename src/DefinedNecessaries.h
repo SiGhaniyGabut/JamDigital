@@ -50,7 +50,7 @@ const long weatherUpdateInterval = 60000; // 1 Minutes
 
 
 const uint8_t fingerprint[20] = {0xEE, 0xAA, 0x58, 0x6D, 0x4F, 0x1F, 0x42, 0xF4, 0x18, 0x5B, 0x7F, 0xB0, 0xF2, 0x0A, 0x4C, 0xDD, 0x97, 0x47, 0x7D, 0x99};
-String weatherAPIKey =  API_KEY;
+String weatherAPIKey =  WEATHER_API_KEY;
 String city = "1642911"; // Penggilingan, Jakarta Timur
 
 String weatherApiUrl = "https://api.openweathermap.org/data/2.5/weather?id=" + city + "&appid=" + weatherAPIKey +"&units=metric&lang=id";
